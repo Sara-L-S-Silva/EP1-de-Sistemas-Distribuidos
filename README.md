@@ -26,8 +26,8 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
 
 **Isso irá gerar dois arquivos:**
 
-    calculator_pb2.py
-    calculator_pb2_grpc.py
+  1 calculator_pb2.py
+  2 calculator_pb2_grpc.py
   
 * Inicie o servidor:
 ```

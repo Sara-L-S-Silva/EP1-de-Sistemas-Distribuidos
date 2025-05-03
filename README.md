@@ -13,9 +13,23 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
 
 ## Como começar
 
-1. Leia o arquivo `ep.pdf` localizado em `instructions for the project/` para entender os requisitos do projeto.
-2. Certifique-se de que todas as dependências necessárias estão instaladas.
-3. Siga as instruções para executar ou compilar o projeto.
+* Leia o arquivo `ep.pdf` localizado em `instructions for the project/` para entender os requisitos do projeto.
+  
+* No terminal certifique-se de que todas as dependências necessárias estão instaladas (talvez seja necessário atualizá-lo):
+    pip install grpcio grpcio-tools
+  
+* Rodar o .proto
+    python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator.proto
+
+**Isso irá gerar dois arquivos:**
+  calculator_pb2.py
+  calculator_pb2_grpc.py
+  
+* Inicie o servidor:
+    python server.py
+
+* Inicie o cliente:
+    python client.py
 
 ## Contribuição
 

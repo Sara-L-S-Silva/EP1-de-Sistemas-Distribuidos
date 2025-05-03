@@ -16,6 +16,7 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
 * Leia o arquivo `ep.pdf` localizado em `instructions for the project/` para entender os requisitos do projeto.
   
 * No terminal certifique-se de que todas as dependências necessárias estão instaladas (talvez seja necessário atualizá-lo):
+
     pip install grpcio grpcio-tools
   
 * Rodar o .proto

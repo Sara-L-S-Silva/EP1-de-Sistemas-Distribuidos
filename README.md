@@ -11,7 +11,7 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
   - `ep.pdf`: Documento PDF com as instruções detalhadas do EP1.
 - **output/**: Diretório para saída de dados ou resultados gerados pelo projeto.
 
-## Como começar
+## Como começar?
 
 * Leia o arquivo `ep.pdf` localizado em `instructions for the project/` para entender os requisitos do projeto.
   
@@ -33,7 +33,7 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
 ```
     python server.py
 ```
-* Inicie o cliente:
+* Em outro terminal inicie o cliente:
 ```
     python client.py
 ```

@@ -29,11 +29,11 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
   1. calculator_pb2.py
   2. calculator_pb2_grpc.py
   
-* Inicie o servidor:
+* Inicie o servidor no terminal com o comando (certifique-se de que está na pasta correta):
 ```
     python server.py
 ```
-* Em outro terminal inicie o cliente:
+* Em outro terminal, inicie o cliente:
 ```
     python client.py
 ```

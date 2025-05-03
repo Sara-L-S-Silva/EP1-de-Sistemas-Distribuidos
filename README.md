@@ -19,16 +19,20 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
     pip install grpcio grpcio-tools
   
 * Rodar o .proto
+
     python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator.proto
 
 **Isso irá gerar dois arquivos:**
-  calculator_pb2.py
-  calculator_pb2_grpc.py
+
+    calculator_pb2.py
+    calculator_pb2_grpc.py
   
 * Inicie o servidor:
+
     python server.py
 
 * Inicie o cliente:
+
     python client.py
 
 ## Contribuição

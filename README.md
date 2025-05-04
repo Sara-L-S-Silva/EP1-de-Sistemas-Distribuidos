@@ -18,6 +18,8 @@ Este repositório contém o código e os arquivos relacionados ao EP1 da discipl
 * No terminal certifique-se de que todas as dependências necessárias estão instaladas (talvez seja necessário atualizá-lo):
 ```
     pip install grpcio grpcio-tools
+    sudo apt install python3 python3-pip python3-venv
+    <-- sudo apt install net-tools -->
 ```  
 * Rodar o .proto
 ```
